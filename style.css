@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html, body{
+    margin: 0; padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-image: url("LAM-dummybackground.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: white;
+    min-height: 100vh;
+}
+
+nav{
+    text-align: center;
+    background-color: darkgrey;
+    padding: 30px;
+    position: sticky;
+}
+
+nav a:hover{
+    background-color: grey;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: bisque;
+    border-top: solid black;
+    border-bottom: solid black;
+}
+
+section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: steelblue;
+}
