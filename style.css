@@ -16,13 +16,12 @@ nav{
     overflow: auto;
     /* text-align: center; */
     background-color: darkgrey;
-    /* position: sticky; */
 }
 
 nav a{
     /* display: block; */
     float: left;
-    width: 30%;
+    width: 27%;
     padding: 30px;
     text-align: center;
     font-size: 17px;
