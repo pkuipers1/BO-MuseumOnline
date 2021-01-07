@@ -6,36 +6,58 @@ html, body{
 }
 
 body{
-    background-image: url("LAM-dummybackground.jpg");
     background-repeat: no-repeat;
-    background-position: right;
     background-color: white;
     min-height: 100vh;
 }
 
 nav{
-    text-align: center;
+    width: 100%;
+    overflow: auto;
+    /* text-align: center; */
     background-color: darkgrey;
+    /* position: sticky; */
+}
+
+nav a{
+    /* display: block; */
+    float: left;
+    width: 30%;
     padding: 30px;
-    position: sticky;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
 }
 
 nav a:hover{
     background-color: grey;
+    text-decoration: none;
+    color: white;
 }
 
 h1{
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
-    background-color: bisque;
+    width: 35%;
+    /* background-color: bisque; */
     border-top: solid black;
     border-bottom: solid black;
 }
 
 section{
+    font-size: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
-    background-color: steelblue;
+    padding: 15px 5px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+img{
+    border-top: solid black;
+    border-bottom: solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
