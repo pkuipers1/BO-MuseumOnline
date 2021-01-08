@@ -11,25 +11,28 @@ body{
     min-height: 100vh;
 }
 
-nav{
+#Menubalk{
     width: 100%;
     overflow: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
     /* text-align: center; */
     background-color: darkgrey;
 }
 
-nav a{
+#Menubalk a{
     /* display: block; */
     float: left;
     width: 27%;
     padding: 30px;
     text-align: center;
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: none;
     color: black;
 }
 
-nav a:hover{
+#Menubalk a:hover{
     background-color: grey;
     text-decoration: none;
     color: white;
@@ -46,7 +49,7 @@ h1{
 }
 
 section{
-    font-size: 20px;
+    font-size: 18px;
     margin-left: auto;
     margin-right: auto;
     padding: 15px 5px;
@@ -60,4 +63,43 @@ img{
     padding-top: 5px;
     padding-bottom: 5px;
     margin-left: 35%;
+}
+
+footer{
+    background-color: darkgrey;
+    margin-left: 0;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+#FooterLocatie{
+    display: flexbox;
+    margin-left: 0;
+    padding: 4%, 2%;
+    max-width: 20%;
+    background-color: white;
+}
+
+#FooterContact{
+    display: flexbox;
+    margin-left: 0;
+    padding: 4%, 2%;
+    max-width: 20%;
+    background-color: aqua;
+}
+
+#FooterLinks{
+    display: flexbox;
+    margin-left: 0;
+    padding: 4%, 2%;
+    max-width: 20%;
+    background-color: brown;
+}
+
+#FooterNav{
+    display: flexbox;
+    margin-left: 0;
+    padding: 4%, 2%;
+    max-width: 20%;
+    background-color: green;
 }
