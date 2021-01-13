@@ -21,11 +21,28 @@ body{
     background-color: darkgrey;
 }
 
+.Selected{
+    background-color: grey;
+    color: white;
+}
+
+#Logo{
+    max-width: 100px;
+    position: fixed;
+    z-index: 1;
+    margin-top: -59px;
+    margin-left: 10px;
+    border: none;
+}
+
+#LinkerMenuoptie{
+    margin-left: 120px;
+}
+
 #Menubalk a{
-    /* display: block; */
     float: left;
-    width: 27%;
-    padding: 30px;
+    width: 15%;
+    padding: 20px;
     text-align: center;
     font-size: 18px;
     text-decoration: none;
@@ -48,58 +65,49 @@ h1{
     border-bottom: solid black;
 }
 
+#Titel{
+    margin-top: 75px;
+}
+
 section{
     font-size: 18px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 70px;
     padding: 15px 5px;
     width: 50%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 img{
-    border-top: solid black;
-    border-bottom: solid black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left: 35%;
+    position: absolute;
+    margin-left: 1350px;
+    margin-top: 500px;
 }
 
 footer{
     background-color: darkgrey;
     margin-left: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     width: 100%;
+    text-align: center;
+    position: absolute;
 }
 
-#FooterLocatie{
-    display: flexbox;
-    margin-left: 0;
-    padding: 4%, 2%;
-    max-width: 20%;
-    background-color: white;
+a{
+    text-decoration: none;
+    color: black;
 }
 
-#FooterContact{
-    display: flexbox;
-    margin-left: 0;
-    padding: 4%, 2%;
-    max-width: 20%;
-    background-color: aqua;
-}
-
-#FooterLinks{
-    display: flexbox;
-    margin-left: 0;
-    padding: 4%, 2%;
-    max-width: 20%;
-    background-color: brown;
-}
-
-#FooterNav{
-    display: flexbox;
-    margin-left: 0;
-    padding: 4%, 2%;
-    max-width: 20%;
-    background-color: green;
+.FooterItem{
+    float: left;
+    width: 28%;
+    padding: 50px;
+    height: 125px;
+    margin-top: auto;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    background-color: darkgrey;
 }
