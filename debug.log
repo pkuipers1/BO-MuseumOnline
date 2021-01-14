@@ -1,3 +1,5 @@
 [0107/100639.689:ERROR:settings.cc(325)] Settings version is not 1
 [0112/101753.639:ERROR:directory_reader_win.cc(43)] FindFirstFile: Het systeem kan het opgegeven pad niet vinden. (0x3)
 [0112/111111.813:ERROR:directory_reader_win.cc(43)] FindFirstFile: Het systeem kan het opgegeven pad niet vinden. (0x3)
+[0114/100812.658:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
+[0114/110229.566:ERROR:directory_reader_win.cc(43)] FindFirstFile: Het systeem kan het opgegeven pad niet vinden. (0x3)
