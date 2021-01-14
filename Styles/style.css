@@ -9,6 +9,7 @@ body{
     background-repeat: no-repeat;
     background-color: white;
     min-height: 100vh;
+
 }
 
 #Menubalk{
@@ -17,6 +18,7 @@ body{
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 2;
     /* text-align: center; */
     background-color: darkgrey;
 }
@@ -60,7 +62,6 @@ h1{
     margin-left: auto;
     margin-right: auto;
     width: 35%;
-    /* background-color: bisque; */
     border-top: solid black;
     border-bottom: solid black;
 }
@@ -73,16 +74,18 @@ section{
     font-size: 18px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70px;
-    padding: 15px 5px;
-    width: 50%;
+    padding: 3% 6%;
+    width: 88%;
     background-color: rgba(255, 255, 255);
+}
+section p{
+    max-width: 33%;
 }
 
 img{
-    position: absolute;
-    margin-left: 1350px;
-    margin-top: 500px;
+    position: relative;
+    margin-left: 75%;
+    margin-top: 110%;
 }
 
 footer{
@@ -101,9 +104,10 @@ a{
 
 .FooterItem{
     float: left;
-    width: 28%;
-    padding: 50px;
-    height: 125px;
+    margin-left: 5%;
+    width: 22%;
+    padding: 3%;
+    height: 7%;
     margin-top: auto;
     text-align: center;
     font-size: 18px;
