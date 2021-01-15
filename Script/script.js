@@ -87,12 +87,21 @@ function finishQuiz() {
   // afsluiting quiz geef feedback
   questionBox.style.display = "none";
   resultBox.style.display = "block";
-  quizWrapper.style.background = "silver";
+  quizWrapper.style.background = "white";
   resultBox.innerHTML = "<h2>Jouw resultaat <br>goede antwoorden " + playerData.goodAnswers + "<br>foute antwoorden " + playerData.wrongAnswers + "</h2>";
 
   console.log("GOOD ANSWERS: " + playerData.goodAnswers)
   console.log("WRONG ANSWERS: " + playerData.wrongAnswers)
 
+  if (playerData.goodAnswers < 2) {
+    resultBox.innerHTML = "<h1>Woman With Shopping</h1><img src=\"../f1m2BO-MuseumOnline/Images/WomanWithShopping.jpg\"><p>Je bent gefoccused op je eigen problemen. Er is genoeg in je leven om je druk over te maken, je hebt niet iemand anders zijn problemen nodig.</p>"
+  } else if (playerData.goodAnswers == 2) {
+    resultBox.innerHTML = "<h1>Ingezakte Druiven</h1><img src=\"../f1m2BO-MuseumOnline/Images/Druiven.jpg\"><p>Je zorgt voornamelijk voor jezelf, maar zorgt ook voor een glimlach bij de mensen om je heen. Je ziet er Meestal netjes uit, maar bent stiekem nogal lui.</p>"
+  } else if (playerData.goodAnswers == 3) {
+    resultBox.innerHTML = "<h1>Last Supper</h1><img src=\"../f1m2BO-MuseumOnline/Images/LastSupper.jpg\"><p>Je bent chaotisch en het zonnetje in huis. Je houd van felle kleuren en accepteert uitdagingen die jouw richting uitkomen.</p>"
+  } else {
+    resultBox.innerHTML = "<h1>Zelfportret van suikerklontjes</h1><img src=\"../f1m2BO-MuseumOnline/Images/Suikerklont.jpg\"><p>Je vind dat andere mensen prioriteit hebben, waardoor jij zelf soms in de problemen komt. Je probeert jezelf altijd te verbeteren en doet zoveel mogelijk je best om anderen blij te maken.</p>"
+  }
 }
 
 init(); // start it

@@ -10,30 +10,30 @@
     <script src="../f1m2BO-MuseumOnline/Script/script.js" defer></script>
     <style>
         #Logo{
-            margin-top: -4.2%;
+            margin-top: -3.2%;
             z-index: 3;
         }
-        .wrapper{
-            margin-top: 5%;
-            padding: 2%;
+        body{
+            background-image: url("Images/QuizBackground.jpg");
+            background-size: cover;
         }
-        footer{
-            margin-top: 1.1%;
+        .wrapper{
+            margin-left: 3%;
+            width: 80%;
+        }
+        #MainBody{
+            margin-top: 4%;
+            padding-top: 9%;
+            margin-left: 0%;
+            padding-bottom: 9%;
+            padding-right: 0%;
+            width: 55%;
         }
     </style>
 </head>
 <body>
 
     <a href="home.html"><img id="Logo" src="../f1m2BO-MuseumOnline/Images/LAM_Logo.png" alt="Logo"></a>
-
-    <div class="wrapper" id="quizWrapper">
-        <div class="questionBox" id="questionBox">
-            <h2 class="quizTitle" id="quizTitle"></h2>
-            <h1 class="myQuestion" id="myQuestion"></h1>
-            <ul class="myAnswer" id="myAnswer"></ul>
-        </div>
-        <div class="resultBox" id="resultBox">einde</div>
-      </div>
 
     <nav id="Menubalk">
         <a href="home.html" id="LinkerMenuoptie">Home</a>
@@ -42,6 +42,17 @@
         <a href="reviews.html">Reviews</a>
         <a href="quiz.html" class="Selected">Quiz</a>
     </nav>
+
+    <section id="MainBody">
+        <div class="wrapper" id="quizWrapper">
+            <div class="questionBox" id="questionBox">
+                <h2 class="quizTitle" id="quizTitle"></h2>
+                <h1 class="myQuestion" id="myQuestion"></h1>
+                <ul class="myAnswer" id="myAnswer"></ul>
+            </div>
+            <div class="resultBox" id="resultBox">einde</div>
+          </div>    
+    </section>
 
     <footer>
 

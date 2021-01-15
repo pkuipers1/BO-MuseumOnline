@@ -3,7 +3,7 @@ const quiz1 =
     "quizID": "Museum 1",
     "quizMetaData":
     {
-        "title": "QUIZ: Welk kunstwerk ben jij?"
+        "title": ""
     },
     "quizContent":
 		[

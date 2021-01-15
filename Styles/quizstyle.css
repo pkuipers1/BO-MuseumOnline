@@ -1,20 +1,32 @@
+@keyframes goodAnswerAnimation {
+  from {background-color: rgb(207, 237, 248);}
+  to {background-color: rgb(17, 169, 230);}
+}
+@keyframes wrongAnswerAnimation {
+  from {background-color: rgb(207, 237, 248);}
+  to {background-color: rgb(17, 169, 230);}
+}
 .wrapper{
   overflow: hidden;
-  width: 40%;
+  width: 75%;
   list-style-type: none;
-  border: solid orange 4px;
-  background-color: rgba(255, 166, 0, 0.5);
+  border: solid 4px rgb(17, 169, 230);
+  background-color:rgb(207, 237, 248);
   border-radius: 15px;
   margin-left: 6%;
 }
-.questionBox, .resultBox {
-  list-style-type: none;
+.wrapper h1{
+  width: 90%;
+  text-align: center;
+  margin-left: 5%;
 }
-.questionBox-new{
-  animation-duration: 4s;
-  list-style-type: none;
+#quizWrapper{
+  background-color: white;
 }
 
+.questionBox, .resultBox {
+  background-color: white;
+}
 .myAnswer{
   display: flex;
   flex-direction: column;
@@ -22,16 +34,52 @@
   list-style-type: none;
 }
 .answer{
-  list-style-type: none;
   padding: 10px;
-  background-color:rgb(255, 166, 0);
+  background-color:rgb(17, 169, 230);
   border: 4px solid white;
   border-radius: 12px;
   margin: 10px;
-  margin-left: -6%;
+  margin-left: 4%;
+  width: 80%;
 }
 .answer:hover{
-  background-color: rgba(255, 166, 0, 0.5);
+  background-color:rgb(207, 237, 248);
   cursor: pointer;
-  list-style-type: none;
+}
+.right {
+  padding: 10px;
+  color:white;
+  border: 4px solid white;
+  border-radius: 12px;
+  margin: 10px;
+  background-color:rgb(17, 169, 230);
+  animation-name: goodAnswerAnimation;
+  animation-duration: 4s;
+  margin-left: -6%;
+  width: 80%;
+  margin-left: 4%;
+}
+.wrong{
+  padding: 10px;
+  color:white;
+  border: 4px solid white;
+  border-radius: 12px;
+  margin: 10px;
+  background-color:rgb(17, 169, 230);
+  animation-name: wrongAnswerAnimation;
+  animation-duration: 4s;
+  margin-left: -6%;
+  margin-left: 4%;
+  width: 80%;
+}
+img{
+  width: 33vw;
+  margin-left: 9%;
+  margin-top: 0%;
+  border: 3px dotted rgb(17, 169, 230);
+}
+.resultBox p{
+  margin-left: 9%;
+  max-width: 80%;
+  text-align: center;
 }
