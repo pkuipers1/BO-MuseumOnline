@@ -9,7 +9,6 @@ body{
     background-repeat: no-repeat;
     background-color: white;
     min-height: 100vh;
-
 }
 
 #Menubalk{
@@ -78,6 +77,7 @@ section{
     width: 88%;
     background-color: rgba(255, 255, 255);
 }
+
 section p{
     max-width: 33%;
 }
