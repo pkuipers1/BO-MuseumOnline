@@ -67,10 +67,14 @@ function evaluate(evt) {
       evt.target.className = "right";
       playerData.goodAnswers += 1; // increase good score
       console.log("correct answer");
+      console.log("correct answers:" + playerData.goodAnswers)
+      console.log("wrong answers:" + playerData.wrongAnswers)
     } else {
       evt.target.className = "wrong";
       playerData.wrongAnswers += 1; // increase wrong score
       console.log("wrong answer");
+      console.log("correct answers:" + playerData.goodAnswers)
+      console.log("wrong answers:" + playerData.wrongAnswers)
     }
     quiz.answerClicked=true; // prevent double click
   }
@@ -85,6 +89,10 @@ function finishQuiz() {
   resultBox.style.display = "block";
   quizWrapper.style.background = "silver";
   resultBox.innerHTML = "<h2>Jouw resultaat <br>goede antwoorden " + playerData.goodAnswers + "<br>foute antwoorden " + playerData.wrongAnswers + "</h2>";
+
+  console.log("GOOD ANSWERS: " + playerData.goodAnswers)
+  console.log("WRONG ANSWERS: " + playerData.wrongAnswers)
+
 }
 
 init(); // start it

@@ -3,22 +3,22 @@ const quiz1 =
     "quizID": "Museum 1",
     "quizMetaData":
     {
-        "title": "Welk kunstwerk ben jij?"
+        "title": "QUIZ: Welk kunstwerk ben jij?"
     },
     "quizContent":
 		[
 			{
 				"question": "Hoe is jouw zicht op het leven?",
 				"answers": [{
-						"answer": "Optimistisch",
+						"answer": "Optimistisch.",
 						"feedback": true
 					},
 					{
-						"answer": "Realistisch",
-						"feedback": true
+						"answer": "Realistisch.",
+						"feedback": false
 					},
 					{
-						"answer": "Pessimistisch",
+						"answer": "Pessimistisch.",
 						"feedback": false
 					}
 				]
@@ -26,15 +26,15 @@ const quiz1 =
 			{
 				"question": "Een van je familieleden vraagt om hulp. Wat doe je?",
 				"answers": [{
-						"answer": "Je legt je werk opzij en helpt",
-						"feedback": false
-					},
-					{
-						"answer": " Je legt uit dat je het nu even druk hebt, maar over een kwartiertje wel wilt helpen",
+						"answer": "Je legt je werk opzij en helpt.",
 						"feedback": true
 					},
 					{
-						"answer": " Je weigert te helpen, je hebt het zelf al druk genoeg",
+						"answer": " Je legt uit dat je het nu even druk hebt, maar over een kwartiertje wel wilt helpen.",
+						"feedback": false
+					},
+					{
+						"answer": " Je weigert te helpen, je hebt het zelf al druk genoeg.",
 						"feedback": false
 					}
 				]
@@ -42,11 +42,11 @@ const quiz1 =
 			{
 				"question": "Je moet voor school een tekening maken. Wat voor tekening maak je?",
 				"answers": [{
-						"answer": "Een fantasie gevecht tussen een reusachtige draak en een robot van de toekomst.",
-						"feedback": false
+						"answer": "Een mooi rustgevend stilleven.",
+						"feedback": true
 					},
 					{
-						"answer": "Een mooi rustgevend stilleven",
+						"answer": "Een fantasie gevecht tussen een reusachtige draak en een robot van de toekomst.",
 						"feedback": false
 					},
 					{
@@ -59,7 +59,7 @@ const quiz1 =
 				"question": "Er is een deadline vanavond, maar je bent nog niet klaar. Wat ga je doen?",
 				"answers": [{
 						"answer": "Direct actie ondernemen. Je gaat proberen het nog op tijd in te leveren.",
-						"feedback": false
+						"feedback": true
 					},
 					{
 						"answer": "Je begint eraan, maar eigenlijk weet je al dat je het niet af gaat redden. Je legt het uit aan de docent en levert het na de deadline in.",
