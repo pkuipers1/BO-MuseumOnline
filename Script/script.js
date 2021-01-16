@@ -96,7 +96,7 @@ function finishQuiz() {
   if (playerData.goodAnswers < 2) {
     resultBox.innerHTML = "<h1>Woman With Shopping</h1><img src=\"../f1m2BO-MuseumOnline/Images/WomanWithShopping.jpg\"><p>Je bent gefoccused op je eigen problemen. Er is genoeg in je leven om je druk over te maken, je hebt niet iemand anders zijn problemen nodig.</p>"
   } else if (playerData.goodAnswers == 2) {
-    resultBox.innerHTML = "<h1>Ingezakte Druiven</h1><img src=\"../f1m2BO-MuseumOnline/Images/Druiven.jpg\"><p>Je zorgt voornamelijk voor jezelf, maar zorgt ook voor een glimlach bij de mensen om je heen. Je ziet er Meestal netjes uit, maar bent stiekem nogal lui.</p>"
+    resultBox.innerHTML = "<h1>Bedorven Druiven</h1><img src=\"../f1m2BO-MuseumOnline/Images/Druiven.jpg\"><p>Je zorgt voornamelijk voor jezelf, maar zorgt ook voor een glimlach bij de mensen om je heen. Je ziet er Meestal netjes uit, maar bent stiekem nogal lui.</p>"
   } else if (playerData.goodAnswers == 3) {
     resultBox.innerHTML = "<h1>Last Supper</h1><img src=\"../f1m2BO-MuseumOnline/Images/LastSupper.jpg\"><p>Je bent chaotisch en het zonnetje in huis. Je houd van felle kleuren en accepteert uitdagingen die jouw richting uitkomen.</p>"
   } else {
